@@ -1,0 +1,360 @@
+*{
+	
+	margin: 0px;
+	padding: 0px
+}
+header .vv  {
+
+	position: fixed;
+	z-index: 999;
+	width: 100%;
+}
+
+@media (max-width:575px) {
+	header .vv {
+
+		position: static;
+	}
+
+
+}
+
+header .vv .mus {
+
+	font-size: 2.5rem;
+	font-family: cairo;
+	text-transform: capitalize;
+	font-weight: bold;
+	cursor: pointer;
+	margin-left: 50px;
+	color:black;
+}
+header .vv .mus:hover {
+
+color: black
+
+}
+
+@media (max-width:575px) {
+	header .mus {
+
+		font-size: 2.5rem
+	}
+
+}
+
+header .lin{
+
+	font-family: sans-serif;
+	text-transform: capitalize;
+	font-weight: bold;
+	cursor: pointer;
+	
+	
+
+}
+
+header .lin2{
+
+	font-family: sans-serif;
+	text-transform: capitalize;
+	font-weight: bold;
+	cursor: pointer;
+	margin-left: 700px
+	
+}
+
+@media (max-width:575px) {
+	header .lin2 {
+
+		margin-left: 0px
+	}
+}
+
+.one {
+
+	background-image: url(../images/giza.jpg);
+	background-size: cover;
+}
+
+.one .p p {
+
+	padding-top: 150px;
+	text-align: center;
+	font-size: 4.5rem;
+	text-transform: capitalize;
+	font-family: tahoma;
+	color: white;
+
+}
+
+@media (max-width:575px) {
+	.one .p p {
+
+		font-size: 3rem
+	}
+
+}
+
+.one .p span{
+	
+	text-align: center;
+	padding-bottom: 150px;
+	font-size: 1.4rem;
+	color:  rgba(255,255,255, .92);
+}
+
+
+.one .btn{
+	
+	margin-bottom: 100px;
+	font-family: sans-serif;
+	text-transform: capitalize
+}
+
+
+.small{
+	
+	background: white;
+	height: 50px;
+	transition: 1s all
+	
+}
+
+.top{
+	
+	position: fixed;
+	right: 40px;
+	bottom: 10px;
+	display: none;
+	cursor: pointer;
+	z-index: 100;
+}
+
+.two{
+	
+	
+	margin-bottom: 50px;
+	margin-top: 80px
+}
+
+
+.two .images img{
+	
+	height: 400px;
+	width: 350px;
+	margin-top: 50px;
+	margin-bottom: 30px
+	
+}
+
+@media (max-width:575px) {
+	.two .images img{
+	
+		height: 300px;
+		width: 270px
+
+	}
+	
+}
+
+
+.two .text p{
+	
+	font-size: 2.5rem;
+	
+	margin-top: 20px;
+
+}
+
+@media (max-width:575px) {
+	 .two .text p{
+	
+         font-size: 2.5rem
+	}
+	
+}
+
+.two .text span{
+	
+	margin-bottom: 30px;
+	color: #888;
+	
+}
+
+.two p{
+ 
+	font-size: 1.2rem;
+	font-weight: bold;
+	font-family: tahoma;
+	text-transform: capitalize
+	
+}
+
+
+.three{
+	
+	
+	margin-bottom: 50px;
+	margin-top: 80px
+}
+
+
+.three .images img{
+	
+	
+	height: 400px;
+	width: 350px;
+	margin-top: 50px;
+	margin-bottom: 30px
+	
+}
+
+@media (max-width:575px) {
+	.three .images img{
+	
+		height: 300px;
+		width: 270px
+
+	}
+	
+}
+
+
+.three  p{
+	
+	font-size: 1.2rem;
+	font-weight: bold;
+	font-family: tahoma;
+	text-transform: capitalize
+
+}
+
+
+.four{
+	
+	
+	margin-bottom: 50px;
+	margin-top: 80px
+}
+
+
+.four .images img{
+	
+	height: 400px;
+	width: 350px;
+	margin-top: 50px;
+	margin-bottom: 30px
+	
+}
+
+@media (max-width:575px) {
+	.four .images img{
+	
+		height: 300px;
+		width: 270px
+
+	}
+	
+}
+
+
+.four  p{
+	
+	font-size: 1.2rem;
+	font-weight: bold;
+	font-family: tahoma;
+	text-transform: capitalize
+
+}
+
+.five{
+	
+	
+	margin-bottom: 50px;
+	margin-top: 80px
+}
+
+
+.five .images img{
+	
+	height: 400px;
+	width: 350px;
+	margin-top: 50px;
+	margin-bottom: 30px
+	
+}
+
+@media (max-width:575px) {
+	.five .images img{
+	
+		height: 300px;
+		width: 270px
+
+	}
+	
+}
+
+
+.five  p{
+	
+	font-size: 1.2rem;
+	font-weight: bold;
+	font-family: tahoma;
+	text-transform: capitalize
+
+}
+
+.six{
+	
+	
+	margin-bottom: 50px;
+	margin-top: 80px
+}
+
+
+.six .images img{
+	
+	height: 400px;
+	width: 350px;
+	margin-top: 50px;
+	margin-bottom: 30px
+	
+}
+
+@media (max-width:575px) {
+	.six .images img{
+	
+		height: 300px;
+		width: 270px
+
+	}
+	
+}
+
+
+.six  p{
+	
+	font-size: 1.2rem;
+	font-weight: bold;
+	font-family: tahoma;
+	text-transform: capitalize
+
+}
+
+footer{
+	
+	background:#343a40
+}
+
+footer a{
+	
+	color: white;
+}
+
+footer p {
+	
+	color: red;
+	
+}
+
